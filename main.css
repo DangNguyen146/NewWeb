@@ -1,0 +1,13 @@
+:root {
+    --text-color: green;
+}
+
+h1 {
+    color: var(--text-color);
+}
+
+h2 {
+    --mycolor: violet;
+    mask-position: bottom;
+    color: var(--mycolor);
+}
